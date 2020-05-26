@@ -16,7 +16,7 @@ And also select "<day>" from dropdown of "Day" field
 And Enter the password and confirm password
 |Qwerty@123|Qwerty@123|
 Then click on the "Submit" button
-Then take a screen shot and validate the scenario
+#Then take a screen shot and validate the scenario
 
 Examples:
 |gender|hobbies|Skills|country|SelectCountry|year|month|day|
