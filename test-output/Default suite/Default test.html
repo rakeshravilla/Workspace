@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 21 10:50:26 IST 2020</td>
+<td>Started on:</td><td>Wed May 27 11:24:46 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105681 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20288 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,164 +76,33 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.runner.runner.run_cukes()'><b>run_cukes</b><br>Test class: com.runner.runner<br>Test method: Runs Cucumber Features<br/>
-<a href="#Output-407148497" onClick='toggleBox("Output-407148497", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1975873209" onClick='toggleBox("Output-1975873209", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-407148497" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-407148497">
+<a href="#Output-1975873209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1975873209">
 <div "featureFile">Feature File: src&#x2F;test&#x2F;java&#x2F;com&#x2F;features&#x2F;demo.feature</div><br/>
 <div "feature">Feature: Registration of demo site</div><br/>
 <div "scenarioOutline">Scenario Outline: Filling details using demo site</div><br/>
 <div "scenario">Scenario Outline: Filling details using demo site</div><br/>
-<div "result">Given  User launch the browser and navigate to demo site (passed : 57s)</div><br/>
-<div "result">Then  User will enter all the required fields (passed : 2s)</div><br/>
+<div "result">Given  User launch the browser and navigate to demo site (passed : 7s)</div><br/>
+<div "result">Then  User will enter all the required fields (passed : 0s)</div><br/>
 <div "result">And  click on &quot;&lt;gender&gt;&quot; and &quot;radiobuttons&quot; (passed : 0s)</div><br/>
 <div "result">And  click on &quot;&lt;hobbies&gt;&quot; and &quot;hobbies&quot; (passed : 0s)</div><br/>
-<div "result">And  select languange in the list (failed : 0s)</div><br/>
-<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (skipped)</div><br/>
-<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (skipped)</div><br/>
-<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (skipped)</div><br/>
-<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (skipped)</div><br/>
-<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (skipped)</div><br/>
-<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (skipped)</div><br/>
-<div "result">And  Enter the password and confirm password (skipped)</div><br/>
-<div "result">Then  click on the &quot;Submit&quot; button (skipped)</div><br/>
-<div "result">Then  take a screen shot and validate the scenario (skipped)</div><br/>
+<div "result">And  select languange in the list (passed : 0s)</div><br/>
+<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (passed : 0s)</div><br/>
+<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (passed : 0s)</div><br/>
+<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (passed : 0s)</div><br/>
+<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (passed : 0s)</div><br/>
+<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (passed : 0s)</div><br/>
+<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (passed : 0s)</div><br/>
+<div "result">And  Enter the password and confirm password (passed : 0s)</div><br/>
+<div "result">Then  click on the &quot;Submit&quot; button (passed : 0s)</div><br/>
+<div "result">Then  take a screen shot and validate the scenario (passed : 0s)</div><br/>
 </div>
 </td>
-<td><div><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]&quot;}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;CDC2-L-9W9RMW2&apos;, ip: &apos;192.168.225.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
-	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]&quot;}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;CDC2-L-9W9RMW2&apos;, ip: &apos;192.168.225.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.stepdef.demo.select_languange_in_the_list(demo.java:86)
-	at ?.And select languange in the list(src/test/java/com/features/demo.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace407148497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace407148497'><pre>cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]&quot;}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;CDC2-L-9W9RMW2&apos;, ip: &apos;192.168.225.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
-	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]&quot;}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;CDC2-L-9W9RMW2&apos;, ip: &apos;192.168.225.117&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.stepdef.demo.select_languange_in_the_list(demo.java:86)
-	at ?.And select languange in the list(src/test/java/com/features/demo.feature:9)
-</pre></div></td>
-<td>105</td>
-<td>com.runner.runner@6379eb</td></tr>
+<td></td>
+<td>20</td>
+<td>com.runner.runner@18eed359</td></tr>
 </table><p>
 </body>
 </html>

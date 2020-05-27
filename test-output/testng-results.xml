@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;java&#x2F;com&#x2F;features&#x2F;demo.feature</div>]]>
@@ -14,10 +14,10 @@
       <![CDATA[<div "scenario">Scenario Outline: Filling details using demo site</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Given  User launch the browser and navigate to demo site (passed : 57s)</div>]]>
+      <![CDATA[<div "result">Given  User launch the browser and navigate to demo site (passed : 7s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Then  User will enter all the required fields (passed : 2s)</div>]]>
+      <![CDATA[<div "result">Then  User will enter all the required fields (passed : 0s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">And  click on &quot;&lt;gender&gt;&quot; and &quot;radiobuttons&quot; (passed : 0s)</div>]]>
@@ -26,128 +26,45 @@
       <![CDATA[<div "result">And  click on &quot;&lt;hobbies&gt;&quot; and &quot;hobbies&quot; (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  select languange in the list (failed : 0s)</div>]]>
+      <![CDATA[<div "result">And  select languange in the list (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (skipped)</div>]]>
+      <![CDATA[<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (skipped)</div>]]>
+      <![CDATA[<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (skipped)</div>]]>
+      <![CDATA[<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (skipped)</div>]]>
+      <![CDATA[<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (skipped)</div>]]>
+      <![CDATA[<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (skipped)</div>]]>
+      <![CDATA[<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  Enter the password and confirm password (skipped)</div>]]>
+      <![CDATA[<div "result">And  Enter the password and confirm password (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Then  click on the &quot;Submit&quot; button (skipped)</div>]]>
+      <![CDATA[<div "result">Then  click on the &quot;Submit&quot; button (passed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Then  take a screen shot and validate the scenario (skipped)</div>]]>
+      <![CDATA[<div "result">Then  take a screen shot and validate the scenario (passed : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105681" started-at="2020-05-21T05:20:26Z" finished-at="2020-05-21T05:22:12Z">
+  <suite name="Default suite" duration-ms="20288" started-at="2020-05-27T05:54:46Z" finished-at="2020-05-27T05:55:07Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.runner.runner@6379eb]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.runner.runner@18eed359]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="105681" started-at="2020-05-21T05:20:26Z" finished-at="2020-05-21T05:22:12Z">
+    <test name="Default test" duration-ms="20288" started-at="2020-05-27T05:54:46Z" finished-at="2020-05-27T05:55:07Z">
       <class name="com.runner.runner">
-        <test-method status="SKIP" signature="run_cukes()[pri:0, instance:com.runner.runner@6379eb]" name="run_cukes" duration-ms="105629" started-at="2020-05-21T05:20:26Z" description="Runs Cucumber Features" finished-at="2020-05-21T05:22:12Z">
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]"}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'CDC2-L-9W9RMW2', ip: '192.168.225.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]"}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'CDC2-L-9W9RMW2', ip: '192.168.225.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:48)
-at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:14)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:230)
-at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:19)
-at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:242)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:579)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]"}
-  (Session info: headless chrome=81.0.4044.138)
-  (Driver info: chromedriver=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 51 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'CDC2-L-9W9RMW2', ip: '192.168.225.117', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:62318}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}), userDataDir=C:\Users\RAKESH~1.RAV\AppData\Local\Temp\scoped_dir30400_1666680261}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=81.0.4044.138, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: e51e2cf68d4ab54126fefb93e571c70e
-*** Element info: {Using=xpath, value=/html/body/section/div/div/div[2]/form/div[7]/div/multi-select/div[2]/ul/li[2]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at com.stepdef.demo.select_languange_in_the_list(demo.java:86)
-at ✽.And select languange in the list(src/test/java/com/features/demo.feature:9)
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.runner.runner@18eed359]" name="run_cukes" duration-ms="20264" started-at="2020-05-27T05:54:46Z" description="Runs Cucumber Features" finished-at="2020-05-27T05:55:07Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;java&#x2F;com&#x2F;features&#x2F;demo.feature</div>]]>
@@ -162,10 +79,10 @@ at ✽.And select languange in the list(src/test/java/com/features/demo.feature:
               <![CDATA[<div "scenario">Scenario Outline: Filling details using demo site</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Given  User launch the browser and navigate to demo site (passed : 57s)</div>]]>
+              <![CDATA[<div "result">Given  User launch the browser and navigate to demo site (passed : 7s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Then  User will enter all the required fields (passed : 2s)</div>]]>
+              <![CDATA[<div "result">Then  User will enter all the required fields (passed : 0s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">And  click on &quot;&lt;gender&gt;&quot; and &quot;radiobuttons&quot; (passed : 0s)</div>]]>
@@ -174,34 +91,34 @@ at ✽.And select languange in the list(src/test/java/com/features/demo.feature:
               <![CDATA[<div "result">And  click on &quot;&lt;hobbies&gt;&quot; and &quot;hobbies&quot; (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  select languange in the list (failed : 0s)</div>]]>
+              <![CDATA[<div "result">And  select languange in the list (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (skipped)</div>]]>
+              <![CDATA[<div "result">And  also select &quot;&lt;Skills&gt;&quot; from dropdown of &quot;skills&quot; field (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (skipped)</div>]]>
+              <![CDATA[<div "result">And  also select &quot;&lt;country&gt;&quot; from dropdown of &quot;country&quot; field (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (skipped)</div>]]>
+              <![CDATA[<div "result">And  Enter the &quot;&lt;SelectCountry&gt;&quot; by &quot;clicking&quot; the column and &quot;Enter&quot; (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (skipped)</div>]]>
+              <![CDATA[<div "result">And  also select &quot;&lt;year&gt;&quot; from dropdown of &quot;Year&quot; field (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (skipped)</div>]]>
+              <![CDATA[<div "result">And  also select &quot;&lt;month&gt;&quot; from dropdown of &quot;Month&quot; field (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (skipped)</div>]]>
+              <![CDATA[<div "result">And  also select &quot;&lt;day&gt;&quot; from dropdown of &quot;Day&quot; field (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  Enter the password and confirm password (skipped)</div>]]>
+              <![CDATA[<div "result">And  Enter the password and confirm password (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Then  click on the &quot;Submit&quot; button (skipped)</div>]]>
+              <![CDATA[<div "result">Then  click on the &quot;Submit&quot; button (passed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Then  take a screen shot and validate the scenario (skipped)</div>]]>
+              <![CDATA[<div "result">Then  take a screen shot and validate the scenario (passed : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- run_cukes -->
