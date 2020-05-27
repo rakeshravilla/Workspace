@@ -13,7 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		features="src/test/java/com/features/demo.feature",
 		glue= {"com.stepdef","com.hook"},
-		
+		tags="@test",
 		//if it set as true, it means console output of cucumber test much more readable.
 		monochrome=true,
 		
